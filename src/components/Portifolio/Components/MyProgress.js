@@ -27,36 +27,22 @@ function MyProgress
 
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
-                    <p className="protitle">Adobe Lightroom</p>
-                    <ProgressBar  striped variant="primary" animated now={60} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
                     <p className="protitle">Adobe Illustrator</p>
-                    <ProgressBar  striped variant="primary" animated now={65} />
+                    <ProgressBar  striped variant="primary" animated now={69} />
                 </Col>
 
 
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
                     <p className="protitle">Adobe XD</p>
-                    <ProgressBar  striped variant="success" animated now={70} />
+                    <ProgressBar  striped variant="success" animated now={85} />
                 </Col>
 
 
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
                     <p className="protitle">Python/Django</p>
-                    <ProgressBar  striped variant="warning" animated now={59} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">Adobe XD</p>
-                    <ProgressBar  striped variant="success" animated now={75} />
+                    <ProgressBar  striped variant="primary" animated now={69} />
                 </Col>
 
 
@@ -70,21 +56,7 @@ function MyProgress
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
                     <p className="protitle">React Js</p>
-                    <ProgressBar  striped variant="success" animated now={80} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">React Router</p>
-                    <ProgressBar  striped variant="success" animated now={80} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">React Spring</p>
-                    <ProgressBar  striped variant="primary" animated now={60} />
+                    <ProgressBar  striped variant="success" animated now={90} />
                 </Col>
 
 
@@ -97,42 +69,8 @@ function MyProgress
 
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
-                    <p className="protitle">Semantic UI React</p>
-                    <ProgressBar  striped variant="success" animated now={75} />
-                </Col>
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">Material UI React</p>
-                    <ProgressBar  striped variant="success" animated now={75} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">Angular Js</p>
-                    <ProgressBar  striped variant="danger" animated now={39} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
                     <p className="protitle">Node Js</p>
-                    <ProgressBar  striped variant="warning" animated now={45} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">React Native</p>
-                    <ProgressBar  striped variant="warning" animated now={50} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">MongoDB</p>
-                    <ProgressBar  striped variant="warning" animated now={50} />
+                    <ProgressBar  striped variant="primary" animated now={65} />
                 </Col>
                 
 

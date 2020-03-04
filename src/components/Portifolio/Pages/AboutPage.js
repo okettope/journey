@@ -10,7 +10,7 @@ function AboutPage(props) {
             <HeroAbout title={props.title}/>
 
             <AboutContent>
-                <p className="aboutConA">Hello, my name is Cornelius and I am Twenty. I'm a full stack engineer with experience in JavaScript, React JS, Node JS, PHP, Laravel, Python and Django. I also do Graphics Design and Product Branding.<br/><br/>
+                <p className="aboutConA">Hello, my name is Cornelius. I'm a full stack developer with experience in JavaScript, React JS, Node JS, PHP, Laravel, Python and Django. I also do Graphics Design and Product Branding.<br/><br/>
                 I've been learning web development languages, tools and technologies for more than one year and have working experience of less than one year. <br/><br/>
                 I've learnt Graphics Designing for more than Six years and have working experience of not less than Four years. <br/><br/>
                 My dream is to become a competent Software Engineer before the next three years, to start touching the world with my love for innovation, development and technology, making the world a better place to be. (Currently working on some ideas/projects).<br/><br/>
