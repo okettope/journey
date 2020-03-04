@@ -25,7 +25,7 @@ function HeroHome(props) {
         <h5><strong>Welcome to my Portfolio</strong></h5>
       </div>
       <p className="ayoade">Ayoade Cornelius Oketona</p>
-      <Button variant="light" href="https://drive.google.com/open?id=10_ExFD9gJHWkHJTfxGM3pNGmcLu7tVK4" target="_blank">Download CV</Button>
+      <Button variant="light" href="https://drive.google.com/open?id=10_ExFD9gJHWkHJTfxGM3pNGmcLu7tVK4" target="_blank">View CV</Button>
 
 
     </Carousel.Caption>

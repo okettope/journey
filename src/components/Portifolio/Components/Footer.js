@@ -12,7 +12,7 @@ function Footer() {
             <Col className=" justify-content-between p-3">
 
                 <Row className="p-2 m-0 d-flex justify-content-center" >
-                    &copy; CornDesign 2020 - All Rights Reserved
+                    &copy; CornCodes 2020 - All Rights Reserved
                 </Row>
 
                 <Row className="p-2 m-0 d-flex justify-content-center" >

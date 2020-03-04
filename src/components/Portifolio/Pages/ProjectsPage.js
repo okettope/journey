@@ -9,8 +9,10 @@ import Badge from 'react-bootstrap/Badge'
 import Graphicsp from '../img/graphicsd.jpg'
 import Spinner from 'react-bootstrap/Spinner'
 import ProgressBar from 'react-bootstrap/ProgressBar'
-import Portfolio001 from '../img/portfolio001.jpg'
 
+import Portfolio001 from '../img/portfolio001.jpg'
+import FoodBlog from '../img/Food-Blog.jpg'
+import DesignWave from '../img/designwave.jpg'
 
 //FOR THE PROGRESS BAR: FOR WHEN THE PERCENT-RANGE
                                     //SUCCESS = 70%-100%
@@ -40,25 +42,20 @@ function ProjectsPage(props) {
                                     <Card>
                                         <Card.Img variant="top" src={Portfolio001} />
                                         <Card.Body>
-                                        <Card.Title><p className="projtitle">Corn Design</p></Card.Title>
-                                        <Card.Text>
-                                                Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                                 Django for back end. 
-                                        </Card.Text>
+
                                         <Card.Title><p className="projtitle">Description</p></Card.Title>
                                         
                                         <Card.Text>
-                                           Corn Design is a web app that enables people to have best
-                                            experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                             drag and drop components they want on the design.<br/><br/>
-                                            They can select color and the kind of layout they want.<br/><br/>
-                                            They can also select out of thousands of design template, the one they want.                                        
+                                           Ayoade Oketona, my first project, is a portfolio website.<br/><br/>
+                                           It was built purely with React Js using React-Bootstrap, React Spring, React Router and Material UI React.<br/><br/>
+                                           Other languages/tools employed are Django and SendGrid.<br/><br/>
+                                           &copy; CornCodes 2020                                       
                                         </Card.Text>
                                         
                                         </Card.Body>
                                     
                                         <Card.Body>
-                                        <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
+                                        <Card.Link href="/">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
                                         </Card.Body>
                                         <ProgressBar striped variant="success" animated now={70} />
                                     </Card>
@@ -76,21 +73,19 @@ function ProjectsPage(props) {
                             <Accordion.Collapse eventKey="1">
                             <Card.Body className="clickmade">
                             <Card>
-                                <Card.Img variant="top" src={Graphicsp} />
+                                <Card.Img variant="top" src={FoodBlog} />
                                 <Card.Body>
-                                <Card.Title><p className="projtitle">Food N Blog</p></Card.Title>
-                                <Card.Text>
-                                        Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                         Django for back end. 
-                                </Card.Text>
+                            
                                 <Card.Title><p className="projtitle">Description</p></Card.Title>
                                 
                                 <Card.Text>
-                                   Corn Design is a web app that enables people to have best
-                                    experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                     drag and drop components they want on the design.<br/><br/>
-                                    They can select color and the kind of layout they want.<br/><br/>
-                                    They can also select out of thousands of design template, the one they want.                                        
+                                   Food N Blog is a project under development. <br/><br/>
+                                   It is not a food blog but something beyond.  <br/><br/>
+                                   It is being built with React js using React-Bootstrap, React Spring, React Router and Material UI React.<br/><br/>
+                                   Other languages/tools employed are Django and SendGrid.<br/><br/>
+                                   &copy; CornCodes 2020              
+                                    <br/><br/>
+                                   WATCH OUT!                                     
                                 </Card.Text>
                                 
                                 </Card.Body>
@@ -98,7 +93,7 @@ function ProjectsPage(props) {
                                 <Card.Body>
                                     <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
                                 </Card.Body>
-                                <ProgressBar striped variant="warning" animated now={35} />
+                                <ProgressBar striped variant="danger" animated now={2} />
                             </Card>
                         </Card.Body>
                             </Accordion.Collapse>
@@ -108,27 +103,20 @@ function ProjectsPage(props) {
                         <Card>
 
                             <Accordion.Toggle as={Card.Header} eventKey="2">
-                                Corn Ads <Badge variant="success">New</Badge>
+                                Design Wave <Badge variant="success">New</Badge>
                             </Accordion.Toggle>
 
                             <Accordion.Collapse eventKey="2">
                             <Card.Body className="clickmade">
                                     <Card>
-                                        <Card.Img variant="top" src={Graphicsp} />
+                                        <Card.Img variant="top" src={DesignWave} />
                                         <Card.Body>
-                                        <Card.Title><p className="projtitle">Corn Design</p></Card.Title>
-                                        <Card.Text>
-                                                Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                                 Django for back end. 
-                                        </Card.Text>
+                                        
                                         <Card.Title><p className="projtitle">Description</p></Card.Title>
                                         
                                         <Card.Text>
-                                           Corn Design is a web app that enables people to have best
-                                            experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                             drag and drop components they want on the design.<br/><br/>
-                                            They can select color and the kind of layout they want.<br/><br/>
-                                            They can also select out of thousands of design template, the one they want.                                        
+                                        -Design wave gives to the customers, for the first time, to make actual description of the design they want     <br/><br/>
+                                        &copy; CornCodes 2020                                                 
                                         </Card.Text>
                                         
                                         </Card.Body>
@@ -136,7 +124,7 @@ function ProjectsPage(props) {
                                         <Card.Body>
                                             <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
                                         </Card.Body>
-                                        <ProgressBar striped variant="success" animated now={30} />
+                                        <ProgressBar striped variant="danger" animated now={1} />
                                     </Card>
                                 </Card.Body>
                             </Accordion.Collapse>
@@ -145,111 +133,7 @@ function ProjectsPage(props) {
 
                         <Card>
 
-                            <Accordion.Toggle as={Card.Header} eventKey="3">
-                                MLSTYLES_I <Badge variant="success">New</Badge>
-                            </Accordion.Toggle>
-
-                            <Accordion.Collapse eventKey="3">
-                            <Card.Body className="clickmade">
-                                    <Card>
-                                        <Card.Img variant="top" src={Graphicsp} />
-                                        <Card.Body>
-                                        <Card.Title><p className="projtitle">MLSTYLES_I</p></Card.Title>
-                                        <Card.Text>
-                                                Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                                 Django for back end. 
-                                        </Card.Text>
-                                        <Card.Title><p className="projtitle">Description</p></Card.Title>
-                                        
-                                        <Card.Text>
-                                           Corn Design is a web app that enables people to have best
-                                            experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                             drag and drop components they want on the design.<br/><br/>
-                                            They can select color and the kind of layout they want.<br/><br/>
-                                            They can also select out of thousands of design template, the one they want.                                        
-                                        </Card.Text>
-                                        
-                                        </Card.Body>
-                                    
-                                        <Card.Body>
-                                            <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
-                                        </Card.Body>
-                                        <ProgressBar striped variant="success" animated now={100} />
-                                    </Card>
-                                </Card.Body>
-                            </Accordion.Collapse>
-                            
-                        </Card>
-
-                        <Card>
-
-                            <Accordion.Toggle as={Card.Header} eventKey="4">
-                                PDMFI <Badge variant="success">New</Badge>
-                            </Accordion.Toggle>
-
-                            <Accordion.Collapse eventKey="4">
-                            <Card.Body className="clickmade">
-                            <Card>
-                                <Card.Img variant="top" src={Graphicsp} />
-                                <Card.Body>
-                                <Card.Title><p className="projtitle">PDMFI</p></Card.Title>
-                                <Card.Text>
-                                        Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                         Django for back end. 
-                                </Card.Text>
-                                <Card.Title><p className="projtitle">Description</p></Card.Title>
-                                
-                                <Card.Text>
-                                   Corn Design is a web app that enables people to have best
-                                    experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                     drag and drop components they want on the design.<br/><br/>
-                                    They can select color and the kind of layout they want.<br/><br/>
-                                    They can also select out of thousands of design template, the one they want.                                        
-                                </Card.Text>
-                                
-                                </Card.Body>
-                            
-                                <Card.Body>
-                                    <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
-                                </Card.Body>
-                                <ProgressBar striped variant="success" animated now={80} />
-                            </Card>
-                        </Card.Body>
-                            </Accordion.Collapse>
-
-                            <Accordion.Toggle as={Card.Header} eventKey="5">
-                            Corn Codes <Badge variant="success">New</Badge>
-                        </Accordion.Toggle>
-
-                        <Accordion.Collapse eventKey="5">
-                        <Card.Body className="clickmade">
-                        <Card>
-                            <Card.Img variant="top" src={Graphicsp} />
-                            <Card.Body>
-                            <Card.Title><p className="projtitle">Corn Codes</p></Card.Title>
-                            <Card.Text>
-                                    Corn Design is a web app developed by CornCodes, built with React Js for front end and
-                                     Django for back end. 
-                            </Card.Text>
-                            <Card.Title><p className="projtitle">Description</p></Card.Title>
-                            
-                            <Card.Text>
-                               Corn Design is a web app that enables people to have best
-                                experience in describing the kind of design they want. <br/><br/>With the app, they can sketch,
-                                 drag and drop components they want on the design.<br/><br/>
-                                They can select color and the kind of layout they want.<br/><br/>
-                                They can also select out of thousands of design template, the one they want.                                        
-                            </Card.Text>
-                            
-                            </Card.Body>
-                        
-                            <Card.Body>
-                                <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
-                            </Card.Body>
-                            <ProgressBar striped variant="success" animated now={50} />
-                        </Card>
-                    </Card.Body>
-                        </Accordion.Collapse>
+                           
                             
                         </Card>
                     </Accordion>

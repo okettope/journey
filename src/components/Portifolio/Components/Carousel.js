@@ -32,7 +32,7 @@ class Carousel extends Component {
                         title: 'Corn Codes',
                         subTitle: 'Web Development',
                         Content: CornCodes,
-                        link: '../Pages/ComingSoon.js',
+                        link: 'www.google.com',
                         selected: false
                     },
 

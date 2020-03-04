@@ -3,7 +3,7 @@ import { BrowserRouter as Router,Route, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import Logo from '../Components/imgs/../../img/logname.png'
+// import Logo from '../Components/imgs/../../img/logname.png'
 
 import HomePage from '../Pages/HomePage';
 import BlogPage from '../Pages/ProjectsPage';
@@ -50,7 +50,8 @@ class Navbarbar extends Component {
           <Container  className="p-0" fluid={true}>
             <Navbar className="border-bottom " bg="light" expand="lg">
               <Navbar.Brand>
-            <a href="/"><img alt = "logo" src={Logo}/></a>
+              <p className="logoname">Ayoade Oketona</p>
+      {/*<a href="/"><img alt = "logo" src={Logo}/></a>*/}
               </Navbar.Brand>
   
               <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
