@@ -9,6 +9,16 @@ import Badge from 'react-bootstrap/Badge'
 import Graphicsp from '../img/graphicsd.jpg'
 import Spinner from 'react-bootstrap/Spinner'
 import ProgressBar from 'react-bootstrap/ProgressBar'
+import Portfolio001 from '../img/portfolio001.jpg'
+
+
+//FOR THE PROGRESS BAR: FOR WHEN THE PERCENT-RANGE
+                                    //SUCCESS = 70%-100%
+                                    //INFO = 60%-69%
+                                    //WARNING = 40%-59%
+                                    //DANGER = 0%-39%
+
+
 
 
 function ProjectsPage(props) {
@@ -22,13 +32,13 @@ function ProjectsPage(props) {
                         <Card>
 
                             <Accordion.Toggle as={Card.Header} eventKey="0">
-                              Corn Design <Badge variant="success">New</Badge> 
+                              Ayoade Oketona <Badge variant="success">New</Badge> 
                             </Accordion.Toggle>
 
                             <Accordion.Collapse eventKey="0">
                                 <Card.Body className="clickmade">
-                                    <Card style={{ width: '18rem' }}>
-                                        <Card.Img variant="top" src={Graphicsp} />
+                                    <Card>
+                                        <Card.Img variant="top" src={Portfolio001} />
                                         <Card.Body>
                                         <Card.Title><p className="projtitle">Corn Design</p></Card.Title>
                                         <Card.Text>
@@ -65,7 +75,7 @@ function ProjectsPage(props) {
 
                             <Accordion.Collapse eventKey="1">
                             <Card.Body className="clickmade">
-                            <Card style={{ width: '18rem' }}>
+                            <Card>
                                 <Card.Img variant="top" src={Graphicsp} />
                                 <Card.Body>
                                 <Card.Title><p className="projtitle">Food N Blog</p></Card.Title>
@@ -88,7 +98,7 @@ function ProjectsPage(props) {
                                 <Card.Body>
                                     <Card.Link href="#">Go to website <Spinner animation="grow" size="sm" /></Card.Link>
                                 </Card.Body>
-                                <ProgressBar striped variant="success" animated now={10} />
+                                <ProgressBar striped variant="warning" animated now={35} />
                             </Card>
                         </Card.Body>
                             </Accordion.Collapse>
@@ -103,7 +113,7 @@ function ProjectsPage(props) {
 
                             <Accordion.Collapse eventKey="2">
                             <Card.Body className="clickmade">
-                                    <Card style={{ width: '18rem' }}>
+                                    <Card>
                                         <Card.Img variant="top" src={Graphicsp} />
                                         <Card.Body>
                                         <Card.Title><p className="projtitle">Corn Design</p></Card.Title>
@@ -141,7 +151,7 @@ function ProjectsPage(props) {
 
                             <Accordion.Collapse eventKey="3">
                             <Card.Body className="clickmade">
-                                    <Card style={{ width: '18rem' }}>
+                                    <Card>
                                         <Card.Img variant="top" src={Graphicsp} />
                                         <Card.Body>
                                         <Card.Title><p className="projtitle">MLSTYLES_I</p></Card.Title>
@@ -179,7 +189,7 @@ function ProjectsPage(props) {
 
                             <Accordion.Collapse eventKey="4">
                             <Card.Body className="clickmade">
-                            <Card style={{ width: '18rem' }}>
+                            <Card>
                                 <Card.Img variant="top" src={Graphicsp} />
                                 <Card.Body>
                                 <Card.Title><p className="projtitle">PDMFI</p></Card.Title>
@@ -213,7 +223,7 @@ function ProjectsPage(props) {
 
                         <Accordion.Collapse eventKey="5">
                         <Card.Body className="clickmade">
-                        <Card style={{ width: '18rem' }}>
+                        <Card>
                             <Card.Img variant="top" src={Graphicsp} />
                             <Card.Body>
                             <Card.Title><p className="projtitle">Corn Codes</p></Card.Title>

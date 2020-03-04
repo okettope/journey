@@ -11,7 +11,6 @@ import AboutPage from '../Pages/AboutPage'
 import ContactPage from '../Pages/ContactPage';
 import Footer from './Footer';
 
-
 class Navbarbar extends Component {
     constructor(props) {
       super(props);
@@ -40,7 +39,8 @@ class Navbarbar extends Component {
        contact:{
           title: 'Let\'s talk',
         }
-  
+
+
   
       }
     }

@@ -7,6 +7,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import HeroContact from '../Components/HeroContact';
 
+import Alert from 'react-bootstrap/Alert'
+
 
 class ContactPage extends React.Component {
 
@@ -70,9 +72,32 @@ class ContactPage extends React.Component {
                             Send
                         </Button>
 
+                        
+                        {this.state.emailSent === true &&
+                        
+                        <Alert variant="success" className="alertmsg" dismissible>
+                            <Alert.Heading>Hey, your message was successfully sent</Alert.Heading>
+                                <p>
+                                    You will recieve a reply from me as soon as I get your message. Thank you <span role="img" aria-label="Happy">&#128578;</span>
+                                </p>
+                        </Alert>
+                    }
 
-                        {this.state.emailSent === true && <p className="d-inline success-msg">Email Sent</p>}
-                        {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
+
+                        {this.state.emailSent === false &&
+                        
+                            <Alert variant="danger" className="alertmsg" dismissible>
+                                <Alert.Heading>Hey, an error occured</Alert.Heading>
+                                    <p>
+                                        Please refresh the page and try again. Thank you <span role="img" aria-label="Happy">&#128578;</span>
+                                    </p>
+                            </Alert>
+                        }
+
+                        
+                        
+
+
 
                     </Form>
                 </ContactContent>

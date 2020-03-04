@@ -4,7 +4,7 @@ import Carousel from '../Components/Carousel';
 import AboutHome from '../Components/HomeAbout/AboutHome';
 import MyProgress from '../Components/MyProgress';
 import HomeProfile from '../Components/HomeProfile'
-import HomeTimeline from '../Components/HomeTimeline'
+import HomeTimeline from '../Components/HomeTimeline';
 
 
 function HomePage(props) {

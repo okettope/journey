@@ -7,9 +7,7 @@ import Navbarbar from '../src/components/Portifolio/Components/Navbar';
 
 
 
-
-
-///PORTFOLIO CLASS///
+///PORTFOLIO CLASS//////
 class App extends Component {
   render() {
     return (
