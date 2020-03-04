@@ -9,7 +9,6 @@ import Slide1 from '../img/slide1.jpg'
 import Slide2 from '../img/slide2.jpg'
 import Slide3 from '../img/slide3.jpg'
 import Slide4 from '../img/slide4.png'
-import CarouselCaption from 'react-bootstrap/CarouselCaption';
 
 
 function HeroHome(props) {
@@ -23,11 +22,12 @@ function HeroHome(props) {
     />
     <Carousel.Caption>
       <div className="slidertitle">
-      <h1><strong>Welcome to my Portfolio</strong></h1>
-      <p className="ayoade">Ayoade Oketona</p>
+        <h2><strong>Welcome to my Portfolio</strong></h2>
+      </div>
+      <p className="ayoade">Ayoade Cornelius Oketona</p>
       <Button variant="light" href="https://drive.google.com/open?id=10_ExFD9gJHWkHJTfxGM3pNGmcLu7tVK4" target="_blank">Download CV</Button>
 
-      </div>
+
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -40,9 +40,9 @@ function HeroHome(props) {
     
     <Carousel.Caption>
         <div className="slidertitle">
-          <h1><strong>"Design is not for philosophy, it is for life"</strong></h1>
-          <p className="ayoade">Graphics Designing</p>
+          <h2><strong>"Design is not for philosophy, it is for life"</strong></h2>
         </div>
+        <p className="ayoade">Graphics Designing</p>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -55,9 +55,10 @@ function HeroHome(props) {
 
     <Carousel.Caption>
         <div className="slidertitle">
-          <h1><strong>"The web is the place you showcase your dreams"</strong></h1>
-          <p className="ayoade">Web Development</p>
+          <h2><strong>"The web is the place you showcase your dreams"</strong></h2>
         </div>
+        <p className="ayoade">Web Development</p>
+
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -69,9 +70,7 @@ function HeroHome(props) {
     />
 
     <Carousel.Caption>
-        <div className="slidertitle">
           <p className="ayoade">I am a Front End Developer</p>
-        </div>
     </Carousel.Caption>
   </Carousel.Item>
 

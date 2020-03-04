@@ -1,8 +1,7 @@
 import React from 'react';
 import HeroAbout from '../Components/HeroAbout';
 import AboutContent from '../Components/AboutContent';
-// import Container from 'react-bootstrap/Container';
-
+import MyProgress from '../Components/MyProgress';
 
 
 function AboutPage(props) {
@@ -20,6 +19,9 @@ function AboutPage(props) {
                 When I am not learning something new, then I am building on what I've known already or creating some Youtube Tutorials for Graphics Designing. You can find those <a  rel="noopener noreferrer" target="_blank" href="http://www.google.com">here</a>.
                 </p>
             </AboutContent>
+
+            <MyProgress/>
+
         </div>
     )
 }

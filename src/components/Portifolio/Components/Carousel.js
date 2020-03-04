@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import LineHeads from './LineHeads';
 import CornDesign from '../Components/imgs/CornDesign.jpg'
 import CornCodes from '../Components/imgs/CornCodes.jpg'
-import ComingSoon from '../Pages/ComingSoon'
 
 
 
@@ -23,7 +22,7 @@ class Carousel extends Component {
                     title: 'Corn Design',
                     subTitle: 'Graphics Design',
                     Content: CornDesign,
-                    link: [ComingSoon],
+                    link: "http://www.google.com",
                     selected: false
                 },
 

@@ -218,12 +218,13 @@ code {
   font-size: 20px;
 }
 
-.alertmsg{
-  margin-top: 20px;
+
+
+
+.slidertitle{
+  color: rgb(255, 255, 255);
+  font-size: 5px;
 }
-
-
-
 
 @media only screen and ( max-width:1074px) {
   .slidertitle{
