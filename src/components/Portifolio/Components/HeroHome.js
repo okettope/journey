@@ -22,7 +22,7 @@ function HeroHome(props) {
     />
     <Carousel.Caption>
       <div className="slidertitle">
-        <h3><strong>Welcome to my Portfolio</strong></h3>
+        <h5><strong>Welcome to my Portfolio</strong></h5>
       </div>
       <p className="ayoade">Ayoade Cornelius Oketona</p>
       <Button variant="light" href="https://drive.google.com/open?id=10_ExFD9gJHWkHJTfxGM3pNGmcLu7tVK4" target="_blank">Download CV</Button>
@@ -40,7 +40,7 @@ function HeroHome(props) {
     
     <Carousel.Caption>
         <div className="slidertitle">
-          <h3><strong>"Design is not for philosophy, it is for life"</strong></h3>
+          <h5><strong>"Design is not for philosophy, it is for life"</strong></h5>
         </div>
         <p className="ayoade">Graphics Designing</p>
     </Carousel.Caption>
@@ -55,7 +55,7 @@ function HeroHome(props) {
 
     <Carousel.Caption>
         <div className="slidertitle">
-          <h3><strong>"The web is the place you showcase your dreams"</strong></h3>
+          <h5><strong>"The web is the place you showcase your dreams"</strong></h5>
         </div>
         <p className="ayoade">Web Development</p>
 
