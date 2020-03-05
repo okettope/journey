@@ -19,38 +19,88 @@ function HomeProfile() {
         <Col md={5} sm={12} className=" justify-content-center m-2" >
           <Card>
             <Card.Body>
-                This is some text within a card body.
-                </Card.Body>
+                <p className=""><i className="fa fa-linkedin-square profilelinks" aria-hidden="true"></i> LinkedIn</p>
+            </Card.Body>
           </Card>
         </Col>
 
         <Col md={5} sm={12} className=" justify-content-center m-2" >
           <Card>
-            <Card.Body>This is some text within a card body.</Card.Body>
+            <Card.Body>
+              <p className=""><i className="fa fa-facebook-square profilelinks" aria-hidden="true"></i> Facebook</p>
+            </Card.Body>
           </Card>
         </Col>
 
         <Col md={5} sm={12} className=" justify-content-center m-2" >
           <Card>
-            <Card.Body>This is some text within a card body.</Card.Body>
+            <Card.Body>
+            <p className=""><i className="fa fa-instagram profilelinks" aria-hidden="true"></i> Instagram</p>
+            </Card.Body>
           </Card>
         </Col>
 
         <Col md={5} sm={12} className=" justify-content-center m-2">
           <Card>
-            <Card.Body>This is some text within a card body.</Card.Body>
+            <Card.Body>
+              <p className=""><i className="fa fa-vimeo-square profilelinks" aria-hidden="true"></i> Vimeo</p>
+            </Card.Body>
           </Card>
         </Col>
 
         <Col md={5} sm={12} className=" justify-content-center m-2">
           <Card>
-            <Card.Body>This is some text within a card body.</Card.Body>
+            <Card.Body>
+              <p className=""><i className="fa fa-whatsapp profilelinks" aria-hidden="true"></i> WhatsApp</p>
+            </Card.Body>
           </Card>
         </Col>
 
         <Col md={5} sm={12} className=" justify-content-center m-2">
           <Card>
-            <Card.Body>This is some text within a card body.</Card.Body>
+            <Card.Body>
+            <p className=""><i className="fa fa-twitter-square profilelinks" aria-hidden="false"></i> Twitter</p>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={5} sm={12} className=" justify-content-center m-2">
+          <Card>
+            <Card.Body>
+            <p className=""><i className="fa fa-github-square profilelinks" aria-hidden="true"></i> GitHub</p>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={5} sm={12} className=" justify-content-center m-2">
+          <Card>
+            <Card.Body>
+            <p className=""><i className="fa fa-phone-square profilelinks" aria-hidden="true"></i> Phone</p>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={5} sm={12} className=" justify-content-center m-2">
+          <Card>
+            <Card.Body>
+            <p className=""><i class="fa fa-pinterest-square profilelinks" aria-hidden="true"></i> Pinterest</p>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={5} sm={12} className=" justify-content-center m-2">
+          <Card>
+            <Card.Body>
+            <p className=""><i className="fa fa-telegram profilelinks" aria-hidden="true"></i> Telegram</p>
+            </Card.Body>
+          </Card>
+        </Col>
+
+        <Col md={5} sm={12} className=" justify-content-center m-2">
+          <Card>
+            <Card.Body>
+            <p className=""><i class="fa fa-stack-overflow profilelinks" aria-hidden="true"></i> Stackoverflow</p>
+            </Card.Body>
           </Card>
         </Col>
       </Row>

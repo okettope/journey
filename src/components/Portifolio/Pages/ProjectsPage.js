@@ -6,7 +6,6 @@ import Card from 'react-bootstrap/Card'
 // import ListGroup from 'react-bootstrap/ListGroup'
 // import ListGroupItem from 'react-bootstrap/ListGroupItem'
 import Badge from 'react-bootstrap/Badge'
-import Graphicsp from '../img/graphicsd.jpg'
 import Spinner from 'react-bootstrap/Spinner'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 
