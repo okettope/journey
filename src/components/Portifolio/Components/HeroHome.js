@@ -42,7 +42,7 @@ function HeroHome(props) {
         <div className="slidertitle">
           <h5><strong>"Design is not for philosophy, it is for life"</strong></h5>
         </div>
-        <p className="ayoade">Graphics Designing</p>
+        <p className="ayoade">I Am Graphics Designer</p>
     </Carousel.Caption>
   </Carousel.Item>
 
