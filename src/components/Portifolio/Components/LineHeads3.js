@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-let Profile = 'My Profile'
+let Profile = 'Want to Know me?'
 
 
 
