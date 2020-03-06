@@ -12,9 +12,9 @@ function HomeTimeline() {
         <Container>
             <LineHeads4/>
 
-            <Row className="justify-content-around p-5">
+            <Row className="justify-content-center p-4">
             
-              <Col md={5} sm={12} className="justify-content-center m-5">
+              <Col md={3} sm={12} className="justify-content-center m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2010-2016</Card.Header>
                     <Card.Body>
@@ -33,7 +33,7 @@ function HomeTimeline() {
                 </Card>
               </Col>
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2016- till date</Card.Header>
                     <Card.Body>
@@ -52,7 +52,7 @@ function HomeTimeline() {
                 </Card>
               </Col>
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2017-2018</Card.Header>
                     <Card.Body>
@@ -71,7 +71,7 @@ function HomeTimeline() {
                 </Card>
               </Col>
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2017-2018</Card.Header>
                     <Card.Body>
@@ -91,7 +91,7 @@ function HomeTimeline() {
               </Col>
               
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2017-2018</Card.Header>
                     <Card.Body>
@@ -112,7 +112,7 @@ function HomeTimeline() {
 
 
               
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2018- till date</Card.Header>
                     <Card.Body>
@@ -129,7 +129,7 @@ function HomeTimeline() {
 
 
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2019</Card.Header>
                     <Card.Body>
@@ -149,7 +149,7 @@ function HomeTimeline() {
               </Col>
 
 
-              <Col md={5} sm={12} className="justify-content-around m-5">
+              <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
                   <Card.Header>2020- till date</Card.Header>
                     <Card.Body>
@@ -173,9 +173,9 @@ function HomeTimeline() {
 
 
                       <hr/>
-                      <Row className="justify-content-center p-5">
+                      <Row className="justify-content-center p-4">
             
-                      <Col md={5} sm={12} className="justify-content-center m-5">
+                      <Col md={3} sm={12} className="justify-content-center m-3">
                         <Card bg="dark" text ="white" style={{ width: '18rem' }}>
                           <Card.Header>April 2019</Card.Header>
                             <Card.Body>
@@ -194,7 +194,7 @@ function HomeTimeline() {
                         </Card>
                       </Col>
         
-                      <Col md={5} sm={12} className="justify-content-around m-5">
+                      <Col md={3} sm={12} className="justify-content-around m-3">
                         <Card bg="dark" text="white" style={{ width: '18rem' }}>
                           <Card.Header>November 2019</Card.Header>
                             <Card.Body>
@@ -214,6 +214,7 @@ function HomeTimeline() {
                       </Col>
                     
                     </Row>      
+
 
         </Container>
 
