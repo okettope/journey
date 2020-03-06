@@ -15,7 +15,6 @@ function HeroAbout(props) {
                         {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
                     </Col>
                 </Row>
-                
             </Container>
         </Jumbotron>
     )
