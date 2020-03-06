@@ -2,108 +2,219 @@ import React from 'react';
 import LineHeads4 from'../Components/LineHeads4';
 import Table from 'react-bootstrap/Table';
 import Container from 'react-bootstrap/Container';
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 
 function HomeTimeline() {
     return (
         <Container>
             <LineHeads4/>
-            <Table striped bordered hover variant="light">
-            <thead>
-              <tr>
-                <th>Year</th>
-                <th>Name</th>
-                <th>Role</th>
-                <th>Achievements</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>2010-2016</td>
-                <td>Perfect Digital Music and Film Industry</td>
-                <td>Student</td>
-                <td>Learnt Graphics Designing</td>
-                <td>Oyo State, Nigeria</td>
-              </tr>
-              <tr>
-                <td>2016- till date</td>
-                <td>Perfect Digital Music and Film Industry</td>
-                <td>Graphics Designer</td>
-                <td></td>
-                <td>Oyo State, Nigeria</td>
-              </tr>
-              <tr>
-                <td>2017-2018</td>
-                <td>Alison Online Courses</td>
-                <td>Student</td>
-                <td>Diploma in Graphics designing</td>
-                <td>www.alison.com</td>
-              </tr>
 
-              <tr>
-                <td>2017-2018</td>
-                <td>Alison Online Courses</td>
-                <td>Student</td>
-                <td>Diploma in Photography</td>
-                <td>www.alison.com</td>
-              </tr>
+            <Row className="justify-content-center p-4">
+            
+              <Col md={3} sm={12} className="justify-content-center m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2010-2016</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Perfect Digital Music and Film Industry, Oyo State, Nigeria
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Learnt Graphics Designing</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2016- till date</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Graphics Designer</Card.Title>
+
+                      <Card.Text>
+                        Perfect Digital Music and Film Industry, Oyo State, Nigeria
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Part-time Job</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2017-2018</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Diploma in Graphics Designing</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
+
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2017-2018</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Diploma in Photography</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
               
-              <tr>
-                <td>2018- till date</td>
-                <td>Corn Design</td>
-                <td>Graphics Designer / C.E.O</td>
-                <td></td>
-                <td>University of Ibadan, Nigeria</td>
-              </tr>
-              <tr>
-                <td>2019</td>
-                <td>Build Code Together</td>
-                <td>Student</td>
-                <td>Introduction to Web Development(HTML5, CSS, JavaScript & React Js)</td>
-                <td>Ibadan, Nigeria</td>
-              </tr>
 
-              <tr>
-                <td>2020- till date</td>
-                <td>Alison Online Courses</td>
-                <td>Student</td>
-                <td>Diploma in E-Commerce Web Development</td>
-                <td>www.alison.com</td>
-              </tr>
-            </tbody>
-          </Table>
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2017-2018</Card.Header>
+                    <Card.Body>
 
-                    <br/><br/>
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Diploma in Photography</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
 
 
-          <Table striped bordered hover variant="dark">
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Awards</th>
-                <th>Achievements</th>
-                <th>Location</th>
-              </tr>
-            </thead>
-            <tbody>
               
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2018- till date</Card.Header>
+                    <Card.Body>
 
-              <tr>
-                <td>April 2019</td>
-                <td>Disability Hackathon Using Design Thinking</td>
-                <td>Second Runner-up</td>
-                <td>Ibadan, Nigeria</td>
-              </tr>
+                      <Card.Title>Graphics Designer / C.E.O</Card.Title>
 
-              <tr>
-                <td>November 2019</td>
-                <td>IESA Thinkathon Challenge</td>
-                <td>First Place</td>
-                <td>University of Ibadan, Nigeria</td>
-              </tr>
-            </tbody>
-          </Table>
+                      <Card.Text>
+                        Corn Design, University Of Ibadan, Nigeria
+                      </Card.Text>
+                      <br/>
+                      </Card.Body>
+                </Card>
+              </Col>
+
+
+
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2019</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Build Code Together, Ibadan, Nigeria
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Introduction to Web Development(HTML5, CSS, JavaScript & React Js)</b>
+                      </Card.Text>
+                  
+                      </Card.Body>
+                </Card>
+              </Col>
+
+
+              <Col md={3} sm={12} className="justify-content-around m-3">
+                <Card bg="light" style={{ width: '18rem' }}>
+                  <Card.Header>2020- till date</Card.Header>
+                    <Card.Body>
+
+                      <Card.Title>Student</Card.Title>
+
+                      <Card.Text>
+                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
+                      </Card.Text>
+
+                      <Card.Text>
+                    <b>Diploma in E-Commerce Web Develpment</b>
+                      </Card.Text>
+        
+                      </Card.Body>
+                </Card>
+              </Col>
+
+            
+            </Row>           
+
+
+                      <hr/>
+                      <Row className="justify-content-center p-4">
+            
+                      <Col md={3} sm={12} className="justify-content-center m-3">
+                        <Card bg="dark" text ="white" style={{ width: '18rem' }}>
+                          <Card.Header>April 2019</Card.Header>
+                            <Card.Body>
+        
+                              <Card.Title>Ibadan, Nigeria</Card.Title>
+        
+                              <Card.Text>
+                                Disability Hackathon Using Design Thinking
+                              </Card.Text>
+        
+                              <Card.Text>
+                                <b>Second Runner-up</b>
+                              </Card.Text>
+                          
+                              </Card.Body>
+                        </Card>
+                      </Col>
+        
+                      <Col md={3} sm={12} className="justify-content-around m-3">
+                        <Card bg="dark" text="white" style={{ width: '18rem' }}>
+                          <Card.Header>November 2019</Card.Header>
+                            <Card.Body>
+        
+                              <Card.Title>University of Ibadan, Nigeria</Card.Title>
+        
+                              <Card.Text>
+                                IESA Thinkathon Challenge
+                              </Card.Text>
+        
+                              <Card.Text>
+                            <b>First Place</b>
+                              </Card.Text>
+                          
+                              </Card.Body>
+                        </Card>
+                      </Col>
+                    
+                    </Row>      
+
         </Container>
 
        
