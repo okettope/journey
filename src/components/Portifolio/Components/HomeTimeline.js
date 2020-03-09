@@ -89,27 +89,6 @@ function HomeTimeline() {
                       </Card.Body>
                 </Card>
               </Col>
-              
-
-              <Col md={3} sm={12} className="justify-content-around m-3">
-                <Card bg="light" style={{ width: '18rem' }}>
-                  <Card.Header>2017-2018</Card.Header>
-                    <Card.Body>
-
-                      <Card.Title>Student</Card.Title>
-
-                      <Card.Text>
-                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
-                      </Card.Text>
-
-                      <Card.Text>
-                    <b>Diploma in Photography</b>
-                      </Card.Text>
-                  
-                      </Card.Body>
-                </Card>
-              </Col>
-
 
               
               <Col md={3} sm={12} className="justify-content-around m-3">
