@@ -256,7 +256,7 @@ code {
 
 .profilelinks{
   color: #28a745;
-  font-size: 50px;
+  font-size: 30px;
   padding: 0;
   text-align: center;
   margin: 0px;
@@ -291,7 +291,6 @@ code {
 @media only screen and (max-width: 600px) {
 
   .profilecons{
-    width:100px;
-    display:inline-block;
+    width:auto;
   }
 }
