@@ -40,7 +40,8 @@ class ContactPage extends React.Component {
         event.preventDefault();
 
         this.setState({
-            disabled: true,            
+            disabled: true, 
+            emailSent: true           
         });
 
         // Axios.post('http://localhost:3030/api/email', this.state)
