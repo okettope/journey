@@ -22,7 +22,7 @@ class Carousel extends Component {
                     title: 'Corn Design',
                     subTitle: 'Graphics Design',
                     Content: CornDesign,
-                    link: "../Pages/PortfolioPages/GraphicsPage/main.html",
+                    // link: PortfolioPage,
                     selected: false
                 },
 
@@ -32,7 +32,7 @@ class Carousel extends Component {
                         title: 'Corn Codes',
                         subTitle: 'Web Development',
                         Content: CornCodes,
-                        link: 'www.google.com',
+                        // link: PortfolioPage,
                         selected: false
                     },
 

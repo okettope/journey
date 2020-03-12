@@ -1,5 +1,8 @@
 import React from 'react';
 import {useSpring, animated} from 'react-spring';
+import { BrowserRouter as Router,Route, Link } from "react-router-dom";
+
+
 
 
 
@@ -10,7 +13,7 @@ function CardInfo(props) {
       <animated.div className="g-card-info" style={style}>
         <p className="g-card-title"><b>{props.title}</b></p>
         <p className="g-card-sub-title">{props.subTitle}</p>
-        <a className="g-card-link" href={props.link} target="_blank" rel="noopeener noreferral">View</a>
+        <Link className="g-card-link" to="/portfolio"><a href={props.link}>View</a></Link>
       </animated.div>
     );
 }

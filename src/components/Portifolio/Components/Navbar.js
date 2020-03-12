@@ -9,6 +9,7 @@ import HomePage from '../Pages/HomePage';
 import BlogPage from '../Pages/ProjectsPage';
 import AboutPage from '../Pages/AboutPage'
 import ContactPage from '../Pages/ContactPage';
+import PortfolioPage from '../Pages/PortfolioPage';
 import Footer from './Footer';
 
 class Navbarbar extends Component {
@@ -21,6 +22,7 @@ class Navbarbar extends Component {
           {title: 'Projects' , path:'/Projects'},
           {title: 'About' , path:'/about'},
           {title: 'Contact' , path:'/contact'},
+          {title: 'Portfolio' , path:'/portfolio'},
         ],
         home:{
           title: 'Welcome to my Portfolio',
@@ -38,6 +40,9 @@ class Navbarbar extends Component {
   
        contact:{
           title: 'Let\'s talk',
+        },
+       portfolio:{
+          title: 'My Portfolio',
         }
 
 
@@ -60,6 +65,7 @@ class Navbarbar extends Component {
                 <Nav className="ml-auto">
                   <Link className="nav-link" to="/">Home</Link>
                   <Link className="nav-link" to="/projects">Projects</Link>
+                  <Link className="nav-link" to="/portfolio">Portfolio</Link>
                   <Link className="nav-link" to="/about">About</Link>
                   <Link className="nav-link" to="/contact">Contact</Link>
                 </Nav>
@@ -68,9 +74,9 @@ class Navbarbar extends Component {
   
             <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />}/>
             <Route path="/Projects" render={() => <BlogPage title={this.state.projects.title} />}/>
+            <Route path="/portfolio" render={() => <PortfolioPage title={this.state.portfolio.title} />}/>
             <Route path="/about" render={() => <AboutPage title={this.state.about.title}  />}/>
             <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} />}/>
-            
             <Footer/>
           </Container>
         </Router>

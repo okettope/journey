@@ -202,6 +202,10 @@ code {
   padding: 10px 15px;
 }
 
+.alertmsg-success, .alertmsg-error{
+  margin-top: 20px;
+}
+
 .progress-title{
   color:#28a745;
   width: 100%;
@@ -293,4 +297,11 @@ code {
   .profilecons{
     width:auto;
   }
+}
+
+.porttab{
+  font-size: 20px;
+}
+.portfoliobg{
+  background: rgba(218, 218, 218, 0.26);
 }

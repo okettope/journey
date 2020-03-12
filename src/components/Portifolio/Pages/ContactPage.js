@@ -6,8 +6,9 @@ import ContactContent from '../Components/AboutContent';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import HeroContact from '../Components/HeroContact';
+// import Axios from 'axios';
 
-import Alert from 'react-bootstrap/Alert'
+import Alert from 'react-bootstrap/Alert';
 
 
 class ContactPage extends React.Component {
@@ -39,10 +40,31 @@ class ContactPage extends React.Component {
         event.preventDefault();
 
         this.setState({
-            disabled: true,
-            emailSent: true
-            
-        })
+            disabled: true,            
+        });
+
+        // Axios.post('http://localhost:3030/api/email', this.state)
+        // .then(res => {
+        //     if (res.data.success) {
+        //         this.setState({
+        //             disabled: false,
+        //             emailSent: true
+        //         });
+        //     } else {
+        //             this.setState({
+        //                 disabled: false,
+        //                 emailSent: false
+        //             });
+        //         }
+        // })
+
+        // .catch(err => {
+        //     this.setState({
+        //         disabled : false,
+        //         emailSent : false
+        //     });
+        // })
+
     }
 
     render() {
@@ -75,7 +97,7 @@ class ContactPage extends React.Component {
                         
                         {this.state.emailSent === true &&
                         
-                        <Alert variant="success" className="alertmsg" dismissible>
+                        <Alert variant="success" className="alertmsg-success" dismissible>
                             <Alert.Heading>Hey, your message was successfully sent</Alert.Heading>
                                 <p>
                                     You will recieve a reply from me as soon as I get your message. Thank you <span role="img" aria-label="Happy">&#128578;</span>
@@ -86,7 +108,7 @@ class ContactPage extends React.Component {
 
                         {this.state.emailSent === false &&
                         
-                            <Alert variant="danger" className="alertmsg" dismissible>
+                            <Alert variant="danger" className="alertmsg-error" dismissible>
                                 <Alert.Heading>Hey, an error occured</Alert.Heading>
                                     <p>
                                         Please refresh the page and try again. Thank you <span role="img" aria-label="Happy">&#128578;</span>
