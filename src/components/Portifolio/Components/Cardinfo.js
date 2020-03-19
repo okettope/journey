@@ -13,7 +13,7 @@ function CardInfo(props) {
       <animated.div className="g-card-info" style={style}>
         <p className="g-card-title"><b>{props.title}</b></p>
         <p className="g-card-sub-title">{props.subTitle}</p>
-        <Link className="g-card-link" to="/portfolio"><a href={props.link}>View</a></Link>
+        <Link className="g-card-link" to="/projects"><a href={props.link}>View</a></Link>
       </animated.div>
     );
 }

@@ -26,8 +26,6 @@ import Flyer18 from '../../img/flyer18.jpg'
 import Flyer19 from '../../img/flyer19.jpg'
 
 
-import LineHeads6 from '../LineHeads6';
-
 
 import Badge from 'react-bootstrap/Badge';
 
@@ -36,13 +34,12 @@ function FlyerDesigns() {
         <div>
             {/*FLYERS*/}
         <Container fluid={true}>     
-        <LineHeads6/>           
            <Row className="justify-content-center py-5  " >
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                 
                         <Card.Body>
-                            <a href={Flyer1}><Card.Img src={Flyer1}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer1}><Card.Img src={Flyer1}/></a><Badge variant="success">New</Badge>
                         </Card.Body>
                     
                 </Col>
@@ -50,7 +47,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-2 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer2}><Card.Img src={Flyer2}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer2}><Card.Img src={Flyer2}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -58,7 +55,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer3}><Card.Img src={Flyer3}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer3}><Card.Img src={Flyer3}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -66,7 +63,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer4}><Card.Img src={Flyer4}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer4}><Card.Img src={Flyer4}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -74,7 +71,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer5}><Card.Img src={Flyer5}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer5}><Card.Img src={Flyer5}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -82,7 +79,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer6}><Card.Img src={Flyer6}/></a><Badge variant="success">New</Badge>
+                            <a target="_blank" href={Flyer6}><Card.Img src={Flyer6}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -90,7 +87,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer7}><Card.Img src={Flyer7}/></a>
+                            <a target="_blank" href={Flyer7}><Card.Img src={Flyer7}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -98,7 +95,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer8}><Card.Img src={Flyer8}/></a>
+                            <a target="_blank" href={Flyer8}><Card.Img src={Flyer8}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -106,7 +103,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer9}><Card.Img src={Flyer9}/></a>
+                            <a target="_blank" href={Flyer9}><Card.Img src={Flyer9}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -114,7 +111,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer10}><Card.Img src={Flyer10}/></a>
+                            <a target="_blank" href={Flyer10}><Card.Img src={Flyer10}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -122,7 +119,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer11}><Card.Img src={Flyer11}/></a>
+                            <a target="_blank" href={Flyer11}><Card.Img src={Flyer11}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -130,7 +127,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer12}><Card.Img src={Flyer12}/></a>
+                            <a target="_blank" href={Flyer12}><Card.Img src={Flyer12}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -138,7 +135,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer13}><Card.Img src={Flyer13}/></a>
+                            <a target="_blank" href={Flyer13}><Card.Img src={Flyer13}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -147,7 +144,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer14}><Card.Img src={Flyer14}/></a>
+                            <a target="_blank" href={Flyer14}><Card.Img src={Flyer14}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -155,7 +152,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer15}><Card.Img src={Flyer15}/></a>
+                            <a target="_blank" href={Flyer15}><Card.Img src={Flyer15}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -163,7 +160,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer16}><Card.Img src={Flyer16}/></a>
+                            <a target="_blank" href={Flyer16}><Card.Img src={Flyer16}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -171,7 +168,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer17}><Card.Img src={Flyer17}/></a>
+                            <a target="_blank" href={Flyer17}><Card.Img src={Flyer17}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -179,7 +176,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer18}><Card.Img src={Flyer18}/></a>
+                            <a target="_blank" href={Flyer18}><Card.Img src={Flyer18}/></a>
                         </Card.Body>
                     
                 </Col>
@@ -187,7 +184,7 @@ function FlyerDesigns() {
                 <Col md={2} sm={8} className=" justify-content-center p-0 portfolio-col">
                    
                         <Card.Body>
-                            <a href={Flyer19}><Card.Img src={Flyer19}/></a>
+                            <a target="_blank" href={Flyer19}><Card.Img src={Flyer19}/></a>
                         </Card.Body>
                     
                 </Col>
