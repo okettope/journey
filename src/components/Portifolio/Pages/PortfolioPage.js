@@ -1,15 +1,19 @@
 import React from 'react';
 // import Tab from 'react-bootstrap/Tab'
 // import Nav from 'react-bootstrap/Nav'
-import Container from 'react-bootstrap/Container'
-// import Col from 'react-bootstrap/Col';
-// import Row from 'react-bootstrap/Row';
 
-function PortfolioPage() {
+import HeroPortfolio from '../Components/HeroPortfolio';
+import FlyerDesigns from '../Components/portfolionavs/FlyerDesigns'
+import LogoDesigns from '../Components/portfolionavs/LogoDesigns'
+
+
+function PortfolioPage(props) {
     return(
-        <Container className="portfoliobg">
-     
-        </Container>
+
+        <div>
+            <HeroPortfolio title={props.title}/>
+
+        </div>
     )
 }
   

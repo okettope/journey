@@ -31,7 +31,7 @@ class Navbarbar extends Component {
         },
   
         projects:{
-          title: 'My Projects'
+          title: 'My Web-Dev Projects'
         },
   
        about:{
@@ -42,7 +42,7 @@ class Navbarbar extends Component {
           title: 'Let\'s talk',
         },
        portfolio:{
-          title: 'My Portfolio',
+          title: 'My Design Portfolio',
         }
 
 
