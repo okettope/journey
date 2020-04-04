@@ -9,6 +9,7 @@ import Slide1 from '../img/slide1.jpg'
 import Slide2 from '../img/slide2.jpg'
 import Slide3 from '../img/slide3.jpg'
 import Slide4 from '../img/slide4.png'
+import resume from '../../file/resume_1585585627720.pdf'
 
 
 function HeroHome(props) {
@@ -25,7 +26,7 @@ function HeroHome(props) {
         <h5><strong>Welcome to my Portfolio</strong></h5>
       </div>
       <p className="ayoade">Ayoade Cornelius Oketona</p>
-      <Button variant="light" href="https://drive.google.com/open?id=10_ExFD9gJHWkHJTfxGM3pNGmcLu7tVK4" target="_blank">View CV</Button>
+      <Button variant="light" href={resume} target="_blank">View CV</Button>
 
 
     </Carousel.Caption>

@@ -14,7 +14,7 @@ function AboutHome() {
             <details>
                 <summary>Continue Reading <Spinner animation="grow" /></summary>
                <hr/> <p> I am a Full Stack Developer and I use React Js, React-Bootstrap, Semantic UI React, Material UI React, Python/Django.</p><hr/>
-                <p>I do Graphics Design with Adobe Photoshop|Adobe Illustrator|Adobe Lightroom, UI/UX/Product Design with Adobe XD|Figma.</p><hr/>
+                <p>I do Graphics Design with Adobe Photoshop|Adobe Illustrator|Adobe Lightroom.</p><hr/>
             </details>
                         
             </div>

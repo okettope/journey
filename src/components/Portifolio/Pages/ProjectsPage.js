@@ -26,7 +26,7 @@ function ProjectsPage(props) {
         <div>
             <HeroProjects title={props.title}/>
             <ProjectContent>
-                <div className="aboutConA">
+                <div>
 
                     <Accordion defaultActiveKey="0">
                         <Card>
