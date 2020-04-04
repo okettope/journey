@@ -27,29 +27,8 @@ function MyProgress
 
                 <Col md={5} sm={12} className=" justify-content-center">
                     <hr/>
-                    <p className="protitle">Adobe Illustrator</p>
-                    <ProgressBar  striped variant="primary" animated now={69} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">Adobe XD</p>
-                    <ProgressBar  striped variant="success" animated now={85} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
                     <p className="protitle">Python/Django</p>
                     <ProgressBar  striped variant="primary" animated now={69} />
-                </Col>
-
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">Figma</p>
-                    <ProgressBar  striped variant="primary" animated now={60} />
                 </Col>
 
 
@@ -59,12 +38,6 @@ function MyProgress
                     <ProgressBar  striped variant="success" animated now={90} />
                 </Col>
 
-
-                <Col md={5} sm={12} className=" justify-content-center">
-                    <hr/>
-                    <p className="protitle">React-Bootstrap</p>
-                    <ProgressBar  striped variant="success" animated now={90} />
-                </Col>
 
 
                 <Col md={5} sm={12} className=" justify-content-center">

@@ -1,6 +1,5 @@
 import React from 'react';
 import LineHeads4 from'../Components/LineHeads4';
-import Table from 'react-bootstrap/Table';
 import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
@@ -71,25 +70,6 @@ function HomeTimeline() {
                 </Card>
               </Col>
 
-              <Col md={3} sm={12} className="justify-content-around m-3">
-                <Card bg="light" style={{ width: '18rem' }}>
-                  <Card.Header>2017-2018</Card.Header>
-                    <Card.Body>
-
-                      <Card.Title>Student</Card.Title>
-
-                      <Card.Text>
-                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
-                      </Card.Text>
-
-                      <Card.Text>
-                    <b>Diploma in Photography</b>
-                      </Card.Text>
-                  
-                      </Card.Body>
-                </Card>
-              </Col>
-
               
               <Col md={3} sm={12} className="justify-content-around m-3">
                 <Card bg="light" style={{ width: '18rem' }}>
@@ -133,14 +113,10 @@ function HomeTimeline() {
                   <Card.Header>2020- till date</Card.Header>
                     <Card.Body>
 
-                      <Card.Title>Student</Card.Title>
+                      <Card.Title>Assitant Director on Designs (CAM/Prog.)</Card.Title>
 
                       <Card.Text>
-                        Alison Online Course | <a href="www.alison.com">www.alison.com</a>
-                      </Card.Text>
-
-                      <Card.Text>
-                    <b>Diploma in E-Commerce Web Develpment</b>
+                        Ibadan Model United Nations | <a href="https://mymun.com/muns/ibmun-2019">IBMUN</a>
                       </Card.Text>
         
                       </Card.Body>

@@ -12,7 +12,7 @@ function HeroAbout(props) {
             <Container fluid={true}>
                 <Row className="justify-content-center py-5" >
                     <Col md={5} sm={12} className=" justify-content-center hcona">
-                        {props.title && <h1 className="display-1 font-weight-bolder">{props.title}</h1>}
+                        {props.title && <h4 className="display-3 font-weight-bolder">{props.title}</h4>}
                     </Col>
                 </Row>
             </Container>

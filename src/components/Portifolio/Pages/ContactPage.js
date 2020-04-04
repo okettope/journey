@@ -1,12 +1,13 @@
 import React from 'react';
-// import HeroContact from '../Components/HeroAbout';
+
 import ContactContent from '../Components/AboutContent';
-// import Hero from 'react-bootstrap/Hero';
-// import Content from 'react-bootstrap/Contents';
+
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import HeroContact from '../Components/HeroContact';
-// import Axios from 'axios';
+import Axios from 'axios';
+import Card from 'react-bootstrap/Card'
+import Container from 'react-bootstrap/Container'
 
 import Alert from 'react-bootstrap/Alert';
 
@@ -44,27 +45,27 @@ class ContactPage extends React.Component {
             emailSent: true           
         });
 
-        // Axios.post('http://localhost:3030/api/email', this.state)
-        // .then(res => {
-        //     if (res.data.success) {
-        //         this.setState({
-        //             disabled: false,
-        //             emailSent: true
-        //         });
-        //     } else {
-        //             this.setState({
-        //                 disabled: false,
-        //                 emailSent: false
-        //             });
-        //         }
-        // })
+        Axios.post('http://localhost:3030/api/email', this.state)
+        .then(res => {
+            if (res.data.success) {
+                this.setState({
+                    disabled: false,
+                    emailSent: true
+                });
+            } else {
+                    this.setState({
+                        disabled: false,
+                        emailSent: false
+                    });
+                }
+        })
 
-        // .catch(err => {
-        //     this.setState({
-        //         disabled : false,
-        //         emailSent : false
-        //     });
-        // })
+        .catch(err => {
+            this.setState({
+                disabled : false,
+                emailSent : false
+            });
+        })
 
     }
 
@@ -95,6 +96,9 @@ class ContactPage extends React.Component {
                             Send
                         </Button>
 
+                            <hr/>
+                            
+
                         
                         {this.state.emailSent === true &&
                         
@@ -124,6 +128,23 @@ class ContactPage extends React.Component {
 
                     </Form>
                 </ContactContent>
+
+                <Container fluid={true} >
+                    <Card bg='dark' text='white'>
+                        <Card.Header>SEND ME A DIRECT MESSAGE</Card.Header>
+                        <Card.Body>
+                            <Card.Text>
+                                <a target="_blank" rel="noopener noreferrer" href="https://wa.me/2348109363734?text=Hello%20Cornelius!%20I'm%20interested%20in%20%20your%20services"><i class="fa fa-whatsapp" aria-hidden="true"> </i> WhatsApp</a>
+                            </Card.Text>
+                            <Card.Text>
+                                <a target="_blank" rel="noopener noreferrer" href="tel:+2348109363734"><i class="fa fa-phone" aria-hidden="true"> </i>Phone Call</a>
+                            </Card.Text>
+                            <Card.Text>
+                                <a target="_blank" rel="noopener noreferrer" href="mailto:oketonaayoade@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Container>
             </div>
             
         );
