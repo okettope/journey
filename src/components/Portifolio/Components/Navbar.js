@@ -53,7 +53,7 @@ class Navbarbar extends Component {
       return (
         <Router>
           <Container  className="p-0" fluid={true}>
-            <Navbar className="border-bottom " bg="light" expand="lg">
+            <Navbar className="border-bottom" fixed="top" bg="light" expand="lg">
               <Navbar.Brand>
               <p className="logoname">Ayoade Oketona</p>
       {/*<a href="/"><img alt = "logo" src={Logo}/></a>*/}
